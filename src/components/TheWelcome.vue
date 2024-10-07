@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="flex justify-center h-screen items-center">
+  <div class="flex h-screen items-center justify-center">
     <p>Welcome - Home</p>
   </div>
 </template>
