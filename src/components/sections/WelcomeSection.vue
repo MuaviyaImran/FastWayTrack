@@ -1,7 +1,7 @@
 <template>
   <section class="relative h-[600px] w-full text-center text-white">
     <img
-    rel="preload"
+      rel="preload"
       src="/assets/meeting-1.jpg"
       alt="Picture"
       class="absolute left-0 top-0 z-20 h-full w-full"

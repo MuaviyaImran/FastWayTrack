@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 body {
-    font-family: "Plus Jakarta Sans", sans-serif;
-
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 p,
@@ -15,5 +14,5 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.6;
+  line-height: 1.6;
 }

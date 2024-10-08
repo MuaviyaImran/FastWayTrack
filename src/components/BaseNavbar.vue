@@ -12,9 +12,9 @@ import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
 <template>
-  <div class="bg-secondary-light/10 sticky">
+  <div class="sticky bg-secondary-light/10">
     <div class="mx-auto flex max-w-7xl items-center justify-between">
-      <div class="text-secondary-light flex gap-4 py-2 text-xs">
+      <div class="flex gap-4 py-2 text-xs text-secondary-light">
         <p class="flex items-center gap-2">
           <IconClock />
           <span>Mon - Fri: 8:00 AM - 18:00 PM</span> /
