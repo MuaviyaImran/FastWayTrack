@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import WelcomeSection from '@/components/sections/WelcomeSection.vue'
-import AboutUs from '@/components/sections/AboutUs.vue'
-import WhyChooseUs from '@/components/sections/WhyChooseUs.vue'
-import AboutOurCompany from '@/components/sections/AboutOurCompany.vue'
-import WhatWeDo from '@/components/sections/WhatWeDo.vue'
-import ClientTestimonals from '@/components/sections/ClientTestimonals.vue'
-import WhyBussinessChooseUs from '@/components/sections/WhyBussinessChooseUs.vue'
+import {
+  WelcomeSection,
+  AboutOurCompany,
+  AboutUs,
+  WhatWeDo,
+  WhyBussinessChooseUs,
+  WhyChooseUs,
+  ClientTestimonials,
+} from '@/components/sections/home'
 </script>
 
 <template>
@@ -15,7 +17,7 @@ import WhyBussinessChooseUs from '@/components/sections/WhyBussinessChooseUs.vue
     <WhyChooseUs />
     <AboutOurCompany />
     <WhatWeDo />
-    <ClientTestimonals />
+    <ClientTestimonials />
     <WhyBussinessChooseUs />
   </div>
 </template>
