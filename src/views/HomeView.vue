@@ -1,7 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import {
+  WelcomeSection,
+  AboutOurCompany,
+  AboutUs,
+  WhatWeDo,
+  WhyBussinessChooseUs,
+  WhyChooseUs,
+  ClientTestimonials,
+} from '@/components/sections/home'
+</script>
 
 <template>
-  <div class="flex h-screen items-center justify-center font-bold">
-    <p>Welcome - Home</p>
+  <WelcomeSection />
+  <div>
+    <AboutUs />
+    <WhyChooseUs />
+    <AboutOurCompany />
+    <WhatWeDo />
+    <ClientTestimonials />
+    <WhyBussinessChooseUs />
   </div>
 </template>

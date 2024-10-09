@@ -1,0 +1,7 @@
+export { default as AboutOurCompany } from './AboutOurCompany.vue'
+export { default as AboutUs } from './AboutUs.vue'
+export { default as ClientTestimonials } from './ClientTestimonials.vue'
+export { default as WelcomeSection } from './WelcomeSection.vue'
+export { default as WhyChooseUs } from './WhyChooseUs.vue'
+export { default as WhatWeDo } from './WhatWeDo.vue'
+export { default as WhyBussinessChooseUs } from './WhyBussinessChooseUs.vue'
