@@ -36,7 +36,7 @@ const route = useRoute()
   <div class="mx-auto flex max-w-7xl justify-between py-8">
     <router-link class="text-xl font-extrabold" to="/">LOGO</router-link>
     <div class="flex gap-12">
-      <router-link :class="{ 'font-semibold': route.name == 'home' }" to="/">Home</router-link>
+      <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
       <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services"
         >Services</router-link
       >

@@ -6,7 +6,7 @@
       <p>We're provide</p>
       <p>invest & business services</p>
     </div>
-    <div class="mx-auto mt-4 flex max-w-6xl flex-col gap-5">
+    <div class="mx-auto mt-7 flex max-w-6xl flex-col gap-5">
       <div class="flex items-center gap-5">
         <div
           class="flex h-[500px] basis-1/2 flex-col items-center justify-center gap-3 bg-white px-14"
