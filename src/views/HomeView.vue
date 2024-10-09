@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {
-  WelcomeSection,
+  WelcomeHome,
   AboutOurCompany,
   AboutUs,
   WhatWeDo,
@@ -11,13 +11,11 @@ import {
 </script>
 
 <template>
-  <WelcomeSection />
-  <div>
-    <AboutUs />
-    <WhyChooseUs />
-    <AboutOurCompany />
-    <WhatWeDo />
-    <ClientTestimonials />
-    <WhyBussinessChooseUs />
-  </div>
+  <WelcomeHome />
+  <AboutUs />
+  <WhyChooseUs />
+  <AboutOurCompany />
+  <WhatWeDo />
+  <ClientTestimonials />
+  <WhyBussinessChooseUs />
 </template>

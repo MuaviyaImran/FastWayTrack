@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { WhatWeDo, WelcomeServices, ClientTestimonials } from '@/components/sections/services'
+</script>
 <template>
-  <div>Services</div>
+  <WelcomeServices />
+  <WhatWeDo />
+  <ClientTestimonials />
 </template>

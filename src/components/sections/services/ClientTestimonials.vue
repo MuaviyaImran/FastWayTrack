@@ -33,10 +33,8 @@ onUnmounted(() => {
 
 <template>
   <div class="mb-10 mt-14 py-5 text-3xl">
-    <p class="text-center text-xs font-bold uppercase text-primary">Testimonials</p>
-    <div class="text-center font-extrabold">
-      <p>What Our Client Say</p>
-    </div>
+    <p class="text-center text-xs font-bold uppercase text-tertiary">What Our Client Say</p>
+
     <div class="carousel mx-auto my-4">
       <div class="carousel-images text-center">
         <div

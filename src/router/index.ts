@@ -23,5 +23,9 @@ const router = createRouter({
     },
   ],
 })
-
+router.beforeEach(async (to, from) => {
+  if (!to.name) {
+    return { name: 'home' }
+  }
+})
 export default router
