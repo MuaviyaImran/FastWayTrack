@@ -10,9 +10,9 @@
       <div class="mx-auto flex h-full flex-col items-center justify-center gap-5">
         <p class="font-semibold">Welcome to digital startup agency</p>
         <h2 class="w-[20ch] text-5xl font-bold">Best Digital Technology Agency</h2>
-        <BaseButton variant="filled" type="base">
+        <!-- <BaseButton variant="filled" type="base">
           <template #text>read more</template>
-        </BaseButton>
+        </BaseButton> -->
       </div>
     </div>
   </section>

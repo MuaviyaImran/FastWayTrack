@@ -12,11 +12,9 @@
           class="flex h-[500px] basis-1/2 flex-col items-center justify-center gap-3 bg-white px-14"
         >
           <img src="/assets/planner_1.png" height="70" width="70" alt="" />
-          <p class="text-lg font-bold">Marketing Strategy</p>
+          <p class="text-lg font-bold">Sales & Marketing</p>
           <p class="text-center text-sm text-secondary-light">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quam veritatis quisquam
-            tempora commodi fugiat? Aliquam fugit, animi maxime commodi sunt quas, et cupiditate
-            illum repudiandae reiciendis beatae consequuntur eligendi.
+            Sales support, email marketing, and content writing.
           </p>
           <BaseButton variant="filled" type="primary" class="mt-6">
             <template #text>read more</template>
@@ -34,11 +32,9 @@
           class="flex h-[500px] basis-1/2 flex-col items-center justify-center gap-3 bg-white px-14"
         >
           <img src="/assets/planner_2.png" height="70" width="70" alt="" />
-          <p class="text-lg font-bold">Management</p>
+          <p class="text-lg font-bold">Customer Services</p>
           <p class="text-center text-sm text-secondary-light">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quam veritatis quisquam
-            tempora commodi fugiat? Aliquam fugit, animi maxime commodi sunt quas, et cupiditate
-            illum repudiandae reiciendis beatae consequuntur eligendi.
+            Inbound/outbound call centers, email support, chat support, and social media management.
           </p>
           <BaseButton variant="filled" type="primary" class="mt-6">
             <template #text>read more</template>

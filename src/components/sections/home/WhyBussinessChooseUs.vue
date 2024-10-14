@@ -2,7 +2,7 @@
 import BaseCompanyQuality from '@/components/common/BaseCompanyQuality.vue'
 </script>
 <template>
-  <div class="bg-[#f5f5f5] py-14">
+  <div class="pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto flex w-[52ch] flex-col gap-4 text-center">
         <p class="text-xs font-bold uppercase text-primary">Why Business Choose us</p>

@@ -1,13 +1,5 @@
 <script lang="ts" setup>
-import {
-  IconClock,
-  IconPhone,
-  IconLocation,
-  IconFacebook,
-  IconInstagram,
-  IconYoutube,
-  IconWhatsapp,
-} from '@/components/icons'
+import { IconClock, IconPhone, IconLocation, IconLogo } from '@/components/icons'
 import { useRoute } from 'vue-router'
 const route = useRoute()
 </script>
@@ -25,23 +17,23 @@ const route = useRoute()
           <IconLocation /><span>48 Queen Street, 2055 London</span>
         </p>
       </div>
-      <div class="flex items-center gap-3">
+      <!-- <div class="flex items-center gap-3">
         <IconFacebook class="cursor-pointer" />
         <IconInstagram class="cursor-pointer" />
         <IconYoutube class="cursor-pointer" />
         <IconWhatsapp class="cursor-pointer" />
-      </div>
+      </div> -->
     </div>
   </div>
-  <div class="mx-auto flex max-w-7xl justify-between py-8">
-    <router-link class="text-xl font-extrabold" to="/">LOGO</router-link>
+  <div class="mx-auto flex max-w-7xl items-center justify-between py-2">
+    <router-link to="/"><IconLogo :height="'70'" width="'150'" /></router-link>
     <div class="flex gap-12">
       <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
-      <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services"
-        >Services</router-link
+      <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services">
+        Services</router-link
       >
-      <router-link :class="{ 'font-semibold': route.name == 'about' }" to="/about"
-        >About</router-link
+      <router-link :class="{ 'font-semibold': route.name == 'about' }" to="/about">
+        About</router-link
       >
     </div>
   </div>

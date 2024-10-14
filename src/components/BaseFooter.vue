@@ -1,25 +1,24 @@
 <script lang="ts" setup>
-const aboutUsList = ['Company History', 'Meet the Team', 'Employee Handbook', 'Careers']
-const ourServicesList = ['Web Development', 'Web Design', 'Marketing', 'Google Ads']
+import { IconLogo } from '@/components/icons'
+// const aboutUsList = ['Company History', 'Meet the Team', 'Employee Handbook', 'Careers']
+const ourServicesList = [
+  'Customer Services',
+  'Sales and Marketing',
+  'Web Development',
+  'Software Development',
+]
 </script>
 <template>
-  <div class="bg-[#17191B] py-12 text-white">
+  <div class="bg-[#17191B] text-white">
     <footer class="mx-auto max-w-7xl">
-      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-16">
+        <div class="flex gap-12">
           <div>
             <div class="flex justify-center text-teal-300 sm:justify-start">
-              <p class="text-3xl font-extrabold">LOGO</p>
+              <IconLogo :fillColor="'#fff'" />
             </div>
 
-            <p
-              class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400 sm:mx-0 sm:max-w-xs sm:text-left"
-            >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet
-              culpa cum itaque neque.
-            </p>
-
-            <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+            <!-- <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <a
                   href="/"
@@ -107,63 +106,22 @@ const ourServicesList = ['Web Development', 'Web Design', 'Marketing', 'Google A
                   </svg>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
 
-          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-            <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-white">About Us</p>
-
-              <nav class="mt-8">
-                <ul class="space-y-4 text-sm">
-                  <li v-for="(item, index) in aboutUsList" :key="index">
-                    <a class="text-white transition hover:text-white/75" href="/">
-                      {{ item }}
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-
+          <div class="flex flex-col justify-start">
             <div class="text-center sm:text-left">
               <p class="text-lg font-medium text-white">Our Services</p>
 
-              <nav class="mt-8">
-                <ul class="space-y-4 text-sm">
+              <nav class="mb-8 mt-4">
+                <ul class="flex items-center gap-8 text-sm">
                   <li v-for="(item, index) in ourServicesList" :key="index">
-                    <a class="text-white transition hover:text-white/75" href="/">
+                    <a
+                      class="flex items-center gap-2 text-white transition hover:text-white/75"
+                      href="/"
+                    >
+                      <div class="h-2 w-2 rounded-full bg-white"></div>
                       {{ item }}
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-
-            <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-white">Helpful Links</p>
-
-              <nav class="mt-8">
-                <ul class="space-y-4 text-sm">
-                  <li>
-                    <a class="text-white transition hover:text-white/75" href="/"> FAQs </a>
-                  </li>
-
-                  <li>
-                    <a class="text-white transition hover:text-white/75" href="/"> Support </a>
-                  </li>
-
-                  <li>
-                    <a class="group flex justify-center gap-1.5 sm:justify-start" href="/">
-                      <span class="text-white transition group-hover:text-white/75">
-                        Live Chat
-                      </span>
-
-                      <span class="relative -mr-2 flex h-2 w-2">
-                        <span
-                          class="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
-                        ></span>
-                        <span class="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
-                      </span>
                     </a>
                   </li>
                 </ul>
@@ -173,7 +131,7 @@ const ourServicesList = ['Web Development', 'Web Design', 'Marketing', 'Google A
             <div class="text-center sm:text-left">
               <p class="text-lg font-medium text-white">Contact Us</p>
 
-              <ul class="mt-8 space-y-4 text-sm">
+              <ul class="mt-8 flex gap-6 text-sm">
                 <li>
                   <a
                     class="group flex items-center justify-center gap-1.5 sm:justify-start"
@@ -258,28 +216,8 @@ const ourServicesList = ['Web Development', 'Web Design', 'Marketing', 'Google A
 
         <div class="mt-12 border-t border-gray-800 pt-6">
           <div class="text-center sm:flex sm:justify-between sm:text-left">
-            <p class="text-sm text-gray-400">
-              <span class="block sm:inline">All rights reserved.</span>
-
-              <a
-                class="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                href="/"
-              >
-                Terms & Conditions
-              </a>
-
-              <span>&middot;</span>
-
-              <a
-                class="inline-block text-teal-500 underline transition hover:text-teal-500/75"
-                href="/"
-              >
-                Privacy Policy
-              </a>
-            </p>
-
             <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-              &copy; 2022 Company Name
+              &copy; 2022 Fastway Track
             </p>
           </div>
         </div>

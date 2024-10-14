@@ -6,7 +6,6 @@ import {
   WhatWeDo,
   WhyBussinessChooseUs,
   WhyChooseUs,
-  ClientTestimonials,
 } from '@/components/sections/home'
 </script>
 
@@ -16,6 +15,6 @@ import {
   <WhyChooseUs />
   <AboutOurCompany />
   <WhatWeDo />
-  <ClientTestimonials />
+  <!-- <ClientTestimonials /> -->
   <WhyBussinessChooseUs />
 </template>

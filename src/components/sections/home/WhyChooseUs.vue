@@ -8,20 +8,22 @@
           <p class="text-xs font-bold uppercase text-primary">Why Choose Us</p>
           <p class="text-4xl font-extrabold">Benefits of Choosing our Agency</p>
           <p class="text-sm leading-6 text-secondary-light">
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Choose Fast Way Track Ltd for your BPO needs and experience the benefits of tailored
+            solutions, expert teams, cost-effective services, cutting-edge technology, scalability,
+            exceptional customer service, and a proven track record. Our commitment to streamlining
+            operations, reducing costs, and enhancing customer satisfaction makes us the ideal
+            partner for businesses seeking to optimize their processes and achieve sustainable
+            growth.
           </p>
         </div>
-        <div class="mt-7 flex flex-col gap-1">
+        <!-- <div class="mt-7 flex flex-col gap-1">
           <p class="text-xs font-medium">Locally Recommended</p>
           <BaseProgressbar :progress="80" />
         </div>
         <div class="mt-4 flex flex-col gap-1">
           <p class="text-xs font-medium">Projects Completed Successfully</p>
           <BaseProgressbar :progress="90" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
