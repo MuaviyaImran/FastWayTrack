@@ -12,7 +12,7 @@ const ourServicesList = [
   <div class="bg-[#17191B] text-white">
     <footer class="mx-auto max-w-7xl">
       <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-4 sm:px-6 lg:px-8 lg:pt-16">
-        <div class="flex flex-col gap-6 lg:flex-row lg:gap-12">
+        <div class="flex flex-col gap-6 md:flex-row lg:gap-12">
           <div>
             <div class="flex justify-center text-teal-300 sm:justify-start">
               <IconLogo :fillColor="'#fff'" />
