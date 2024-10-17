@@ -11,8 +11,8 @@ const ourServicesList = [
 <template>
   <div class="bg-[#17191B] text-white">
     <footer class="mx-auto max-w-7xl">
-      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-16">
-        <div class="flex gap-12">
+      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-4 sm:px-6 lg:px-8 lg:pt-16">
+        <div class="flex flex-col gap-6 lg:flex-row lg:gap-12">
           <div>
             <div class="flex justify-center text-teal-300 sm:justify-start">
               <IconLogo :fillColor="'#fff'" />
@@ -110,11 +110,11 @@ const ourServicesList = [
           </div>
 
           <div class="flex flex-col justify-start">
-            <div class="text-center sm:text-left">
+            <div class="sm:text-left lg:text-center">
               <p class="text-lg font-medium text-white">Our Services</p>
 
-              <nav class="mb-8 mt-4">
-                <ul class="flex items-center gap-8 text-sm">
+              <nav class="mx-10 mb-3 mt-4 lg:mx-0 lg:mb-8">
+                <ul class="flex flex-col gap-2 text-sm lg:flex-row lg:items-center lg:gap-8">
                   <li v-for="(item, index) in ourServicesList" :key="index">
                     <a
                       class="flex items-center gap-2 text-white transition hover:text-white/75"
@@ -128,10 +128,12 @@ const ourServicesList = [
               </nav>
             </div>
 
-            <div class="text-center sm:text-left">
+            <div class="sm:text-left lg:text-center">
               <p class="text-lg font-medium text-white">Contact Us</p>
 
-              <ul class="mt-8 flex gap-6 text-sm">
+              <ul
+                class="mx-10 mt-4 flex flex-col items-start gap-2 text-sm lg:mx-0 lg:mt-8 lg:flex-row lg:items-center lg:justify-center lg:gap-6"
+              >
                 <li>
                   <a
                     class="group flex items-center justify-center gap-1.5 sm:justify-start"

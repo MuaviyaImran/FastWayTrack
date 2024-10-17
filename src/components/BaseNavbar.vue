@@ -6,7 +6,9 @@ const route = useRoute()
 <template>
   <div class="sticky bg-secondary-light/10">
     <div class="mx-auto flex max-w-7xl items-center justify-between">
-      <div class="flex gap-4 py-2 text-xs text-secondary-light">
+      <div
+        class="flex flex-col gap-1 px-4 py-2 text-[10px] text-secondary-light lg:flex-row lg:gap-4 lg:text-xs"
+      >
         <p class="flex items-center gap-2">
           <IconClock />
           <span>Mon - Fri: 8:00 AM - 18:00 PM</span> /
@@ -25,7 +27,19 @@ const route = useRoute()
       </div> -->
     </div>
   </div>
-  <div class="mx-auto flex max-w-7xl items-center justify-between py-2">
+  <div class="flex items-center justify-between px-5 py-2 lg:hidden">
+    <img src="/favicon.svg" alt="" class="h-[40px] w-[40px]" />
+    <div class="flex gap-12 text-xs">
+      <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
+      <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services">
+        Services</router-link
+      >
+      <router-link :class="{ 'font-semibold': route.name == 'about' }" to="/about">
+        About</router-link
+      >
+    </div>
+  </div>
+  <div class="mx-auto hidden max-w-7xl items-center justify-between py-2 lg:flex">
     <router-link to="/"><IconLogo :height="'70'" width="'150'" /></router-link>
     <div class="flex gap-12">
       <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
