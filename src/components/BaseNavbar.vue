@@ -6,7 +6,7 @@ const route = useRoute()
 <template>
   <div class="sticky bg-secondary-light/10">
     <div class="mx-auto flex max-w-7xl items-center justify-between">
-      <div
+      <!-- <div
         class="flex flex-col gap-1 px-4 py-2 text-[10px] text-secondary-light lg:flex-row lg:gap-4 lg:text-xs"
       >
         <p class="flex items-center gap-2">
@@ -18,7 +18,7 @@ const route = useRoute()
         <p class="flex items-center gap-2">
           <IconLocation /><span>48 Queen Street, 2055 London</span>
         </p>
-      </div>
+      </div> -->
       <!-- <div class="flex items-center gap-3">
         <IconFacebook class="cursor-pointer" />
         <IconInstagram class="cursor-pointer" />

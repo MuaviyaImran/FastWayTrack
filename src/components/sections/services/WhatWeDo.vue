@@ -9,29 +9,36 @@
     <div class="mx-auto mt-7 flex max-w-6xl flex-col gap-5">
       <WhatWeDoCard
         title="Customer Services"
-        desctiption="Inbound/outbound call centers, email support, chat support, and social media management."
+        description="Inbound/outbound call centers, email support, chat support, and social media management."
         image="/assets/meeting-3.jpg"
         plannerImage="/assets/planner_2.png"
         reverse
       />
       <WhatWeDoCard
         title="Sales & Marketing"
-        desctiption="Sales support, email marketing, and content writing."
+        description="Sales support, email marketing, and content writing."
         image="/assets/meeting-3.jpg"
         plannerImage="/assets/planner_1.png"
       />
       <WhatWeDoCard
         title="Software Development"
-        desctiption="Front-end, back-end, and app development for iOS and Android."
+        description="Front-end, back-end, and app development for iOS and Android."
         image="/assets/meeting-3.jpg"
         plannerImage="/assets/planner_1.png"
         reverse
       />
       <WhatWeDoCard
         title="Web Development"
-        desctiption="Custom web development solutions."
+        description="Custom web development solutions."
         image="/assets/meeting-3.jpg"
         plannerImage="/assets/planner_2.png"
+      />
+      <WhatWeDoCard
+        title="Account Management and Bookkeeping "
+        description="Transaction Recording, Financial Statements, Bank Reconciliation, Accounts Receivable & Payable Management, and General Ledger Maintenance ."
+        image="/assets/meeting-3.jpg"
+        plannerImage="/assets/planner_1.png"
+        reverse
       />
     </div>
   </div>
