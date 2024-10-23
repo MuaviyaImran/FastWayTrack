@@ -2,7 +2,6 @@
 <template>
   <section class="relative h-[300px] w-full text-center text-white md:h-[600px]">
     <img
-      loading="lazy"
       rel="preload"
       src="/assets/meeting-1.jpg"
       alt="Picture"
