@@ -1,11 +1,23 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="relative mx-auto flex max-w-6xl flex-col justify-between gap-2 pb-24 pt-10">
-    <p class="text-xs font-bold uppercase text-primary">About Us</p>
-    <p class="w-[20ch] text-3xl font-extrabold">We're Delivering Only Exceptional Quality Work</p>
-    <div class="flex">
-      <img src="/assets/meeting-2.jpg" alt="Picture" class="h-[500px]" rel="preload" />
-      <div class="flex w-[40ch] flex-col gap-5 px-8 text-sm text-secondary-light">
+  <div
+    class="relative mx-auto flex max-w-6xl flex-col justify-between gap-2 pb-4 pt-4 md:pb-12 md:pt-10 lg:pb-24"
+  >
+    <p class="px-4 text-xs font-bold uppercase text-primary md:px-0">About Us</p>
+    <p class="w-[20ch] px-4 text-xl font-extrabold md:px-0 md:text-2xl lg:text-3xl">
+      We're Delivering Only Exceptional Quality Work
+    </p>
+    <div class="flex flex-col lg:flex-row">
+      <img
+        loading="lazy"
+        src="/assets/meeting-2.jpg"
+        alt="Picture"
+        class="h-[300px] md:h-[400px] lg:h-[500px]"
+        rel="preload"
+      />
+      <div
+        class="lg-pt-0 flex w-[40ch] flex-col gap-5 px-3 pt-3 text-sm text-secondary-light md:px-5 lg:px-8"
+      >
         <p>
           Fast Way Track Ltd is a leading provider of Business Process Outsourcing (BPO) services,
           specializing in customer service, sales and marketing, software development, and web

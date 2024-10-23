@@ -6,41 +6,20 @@
       <p>We're provide</p>
       <p>invest & business services</p>
     </div>
-    <div class="mx-auto mt-7 flex max-w-6xl flex-col gap-5">
-      <div class="flex items-center gap-5">
-        <div
-          class="flex h-[500px] basis-1/2 flex-col items-center justify-center gap-3 bg-white px-14"
-        >
-          <img src="/assets/planner_1.png" height="70" width="70" alt="" />
-          <p class="text-lg font-bold">Sales & Marketing</p>
-          <p class="text-center text-sm text-secondary-light">
-            Sales support, email marketing, and content writing.
-          </p>
-          <BaseButton variant="filled" type="primary" class="mt-6">
-            <template #text>read more</template>
-          </BaseButton>
-        </div>
-        <div class="basis-1/2">
-          <img src="/assets/meeting-3.jpg" class="h-[500px] w-full" alt="Picture" rel="preload" />
-        </div>
-      </div>
-      <div class="flex items-center gap-5">
-        <div class="basis-1/2">
-          <img src="/assets/meeting-3.jpg" class="h-[500px] w-full" alt="Picture" rel="preload" />
-        </div>
-        <div
-          class="flex h-[500px] basis-1/2 flex-col items-center justify-center gap-3 bg-white px-14"
-        >
-          <img src="/assets/planner_2.png" height="70" width="70" alt="" />
-          <p class="text-lg font-bold">Customer Services</p>
-          <p class="text-center text-sm text-secondary-light">
-            Inbound/outbound call centers, email support, chat support, and social media management.
-          </p>
-          <BaseButton variant="filled" type="primary" class="mt-6">
-            <template #text>read more</template>
-          </BaseButton>
-        </div>
-      </div>
+    <div class="mx-auto mt-7 flex max-w-6xl flex-col md:gap-3 lg:gap-5">
+      <WhatWeDoCard
+        title="Sales & Marketing"
+        desctiption="Sales support, email marketing, and content writing."
+        image="/assets/meeting-3.jpg"
+        plannerImage="/assets/planner_1.png"
+      />
+      <WhatWeDoCard
+        title="Customer Services"
+        desctiption="Inbound/outbound call centers, email support, chat support, and social media management."
+        image="/assets/meeting-3.jpg"
+        plannerImage="/assets/planner_2.png"
+        reverse
+      />
     </div>
   </div>
 </template>

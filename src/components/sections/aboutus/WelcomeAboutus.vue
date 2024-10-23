@@ -1,6 +1,7 @@
 <template>
   <section class="relative h-[600px] w-full text-center text-white">
     <img
+      loading="lazy"
       rel="preload"
       src="/assets/aboutus-hero.jpg"
       alt="Picture"

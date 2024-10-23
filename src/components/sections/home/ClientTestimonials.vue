@@ -45,6 +45,7 @@ onUnmounted(() => {
           :class="{ active: index === currentIndex }"
         >
           <img
+            loading="lazy"
             :src="data.image"
             :alt="`Image ${index + 1}`"
             class="mx-auto h-[100px] w-[100px] rounded-full"

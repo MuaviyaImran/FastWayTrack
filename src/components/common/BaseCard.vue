@@ -12,6 +12,7 @@ const props = defineProps<{
 <template>
   <div class="flex w-full flex-col gap-2">
     <img
+      loading="lazy"
       :src="image"
       alt=""
       class="w-full"
