@@ -9,5 +9,8 @@
       "@/*": ["./src/*"]
     },
     "allowJs": true
-  }
+  },
+  "rules": {
+  "no-unused-vars": "off"
+},
 }
