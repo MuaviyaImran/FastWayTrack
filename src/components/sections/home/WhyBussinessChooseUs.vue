@@ -5,7 +5,7 @@ import BaseCompanyQuality from '@/components/common/BaseCompanyQuality.vue'
   <div class="pb-14">
     <div class="mx-auto max-w-7xl">
       <div class="mx-auto flex w-[28ch] flex-col gap-4 text-center md:w-[32ch] lg:w-[52ch]">
-        <p class="text-xs font-bold uppercase text-primary">Why Business Choose us</p>
+        <p class="pt-7 text-xs font-bold uppercase text-primary md:pt-0">Why Business Choose us</p>
         <p class="text-3xl font-extrabold">Jumpstart your business</p>
         <p class="text-xs text-secondary-light">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus blanditiis molestias

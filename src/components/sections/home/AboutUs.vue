@@ -1,10 +1,10 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="relative mx-auto flex max-w-6xl flex-col justify-between gap-2 pb-4 pt-4 md:pb-12 md:pt-10 lg:pb-24"
+    class="relative mx-auto flex max-w-6xl flex-col justify-between gap-2 px-4 pb-4 pt-4 md:px-0 md:pb-12 md:pt-10 lg:pb-24"
   >
-    <p class="px-4 text-xs font-bold uppercase text-primary md:px-0">About Us</p>
-    <p class="w-[20ch] px-4 text-xl font-extrabold md:px-0 md:text-2xl lg:text-3xl">
+    <p class="text-xs font-bold uppercase text-primary">About Us</p>
+    <p class="w-[20ch] text-xl font-extrabold md:text-2xl lg:text-3xl">
       We're Delivering Only Exceptional Quality Work
     </p>
     <div class="flex flex-col lg:flex-row">
@@ -16,7 +16,7 @@
         rel="preload"
       />
       <div
-        class="lg-pt-0 flex w-full flex-col gap-5 px-3 pt-3 text-sm text-secondary-light md:w-[35ch] md:px-5 lg:w-[40ch] lg:px-8"
+        class="lg-pt-0 flex w-full flex-col gap-5 pt-3 text-sm text-secondary-light md:w-[35ch] lg:w-[40ch] lg:px-8"
       >
         <p>
           Fast Way Track Ltd is a leading provider of Business Process Outsourcing (BPO) services,

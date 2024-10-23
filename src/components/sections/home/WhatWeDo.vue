@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="my-14 bg-[#f5f5f5] py-14">
+  <div class="bg-[#f5f5f5] py-14 md:my-6 lg:my-14">
     <p class="text-center text-xs font-bold uppercase text-primary">What We Do</p>
     <div class="text-center text-xl font-extrabold md:text-2xl lg:text-3xl">
       <p>We're provide</p>

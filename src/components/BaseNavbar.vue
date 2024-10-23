@@ -39,7 +39,7 @@ const route = useRoute()
       >
     </div>
   </div>
-  <div class="mx-auto hidden max-w-7xl items-center justify-between py-2 lg:flex">
+  <div class="mx-auto hidden max-w-7xl items-center justify-between p-2 lg:flex">
     <router-link to="/"><IconLogo :height="'70'" width="'150'" /></router-link>
     <div class="flex gap-12">
       <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>

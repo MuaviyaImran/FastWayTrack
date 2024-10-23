@@ -18,14 +18,19 @@ const props = defineProps<{
       class="w-full"
       :class="[heighted ? 'max-h-[380px]' : 'max-h-[220px]']"
     />
-    <p class="mt-2 font-extrabold" :class="[textCentered ? 'text-center' : '']">{{ title }}</p>
-    <p class="text-sm text-secondary-light" :class="[textCentered ? 'px-7 text-center' : '']">
+    <p class="mt-2 px-4 font-extrabold lg:px-0" :class="[textCentered ? 'text-center' : '']">
+      {{ title }}
+    </p>
+    <p
+      class="px-4 text-sm text-secondary-light lg:px-0"
+      :class="[textCentered ? 'px-7 text-center' : '']"
+    >
       {{ description }}
     </p>
     <BaseButton
       variant="filled"
       type="primary"
-      class="mt-1 w-fit"
+      class="mx-auto mt-1 w-fit lg:mx-0"
       :class="[textCentered ? 'mx-auto' : '']"
       onclick="onClick"
       v-if="showButton"

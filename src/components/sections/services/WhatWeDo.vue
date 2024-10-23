@@ -2,7 +2,7 @@
 <template>
   <div class="bg-[#f5f5f5] py-4 md:py-8 lg:py-14">
     <p class="text-center text-xs font-bold uppercase text-primary">What We Do</p>
-    <div class="text-center text-3xl font-extrabold">
+    <div class="text-center text-xl font-extrabold md:text-2xl lg:text-3xl">
       <p>We're provide</p>
       <p>invest & business services</p>
     </div>

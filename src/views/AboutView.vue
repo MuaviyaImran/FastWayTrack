@@ -9,7 +9,7 @@ import {
 </script>
 <template>
   <WelcomeAboutus />
-  <div class="mx-auto my-14 flex max-w-7xl gap-4">
+  <div class="mx-auto flex max-w-7xl flex-col gap-4 lg:my-14 lg:flex-row">
     <BaseCard
       image="/assets/meeting-1.jpg"
       title="Digital Marketing"
@@ -27,7 +27,7 @@ import {
       textCentered
     />
     <BaseCard
-      image="/assets/services-hero.jpg"
+      image="/assets/meeting-1.jpg"
       title="Digital Marketing"
       description="Add filters, effects, adjustments, or customize with frames, text, or stickers. Edit photos effortlessly. Show some love to Thirdman by giving them a small donation."
       onclick="console.log('clicked')"
