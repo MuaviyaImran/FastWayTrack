@@ -218,9 +218,7 @@ const ourServicesList = [
 
         <div class="mt-12 border-t border-gray-800 pt-6">
           <div class="text-center sm:flex sm:justify-between sm:text-left">
-            <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-              &copy; 2022 Fastway Track
-            </p>
+            <p class="mt-0 text-sm text-gray-500 sm:order-first">&copy; 2022 Fastway Track</p>
           </div>
         </div>
       </div>

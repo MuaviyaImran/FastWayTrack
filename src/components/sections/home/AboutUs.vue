@@ -16,7 +16,7 @@
         rel="preload"
       />
       <div
-        class="lg-pt-0 flex w-[40ch] flex-col gap-5 px-3 pt-3 text-sm text-secondary-light md:px-5 lg:px-8"
+        class="lg-pt-0 flex w-[30ch] flex-col gap-5 px-3 pt-3 text-sm text-secondary-light md:w-[35ch] md:px-5 lg:w-[40ch] lg:px-8"
       >
         <p>
           Fast Way Track Ltd is a leading provider of Business Process Outsourcing (BPO) services,
