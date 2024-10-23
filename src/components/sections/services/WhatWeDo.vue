@@ -29,7 +29,7 @@
       />
       <WhatWeDoCard
         title="Web Development"
-        description="Custom web development solutions."
+        description="Custom web development solutions with ReactJS, VueJs, GO lang, and many more."
         image="/assets/meeting-3.jpg"
         plannerImage="/assets/planner_2.png"
       />

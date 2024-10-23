@@ -11,7 +11,10 @@
     <div class="absolute left-0 top-0 z-30 h-[300px] w-full bg-[rgba(0,25,62,0.7)] md:h-[600px]">
       <div class="mx-auto flex h-full flex-col items-center justify-center gap-5">
         <img
+          height="90"
+          width="100"
           src="/favicon-white.svg"
+          alt="App logo"
           class="h-[90px] w-[100px] md:h-[140px] md:w-[150px] lg:h-[180px] lg:w-[200px]"
         />
         <p class="text-sm font-medium md:text-base md:font-semibold">

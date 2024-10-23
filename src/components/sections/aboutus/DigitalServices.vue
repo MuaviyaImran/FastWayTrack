@@ -5,10 +5,15 @@
       <div class="flex basis-1/2 flex-col gap-2 px-4 md:gap-4 md:px-0">
         <p class="text-primary">We provide digital services</p>
         <p class="text-2xl font-extrabold md:w-[15ch]">Services we're providing</p>
-        <img loading="lazy" src="/assets/services-hero.jpg" alt="" class="hidden md:flex" />
+        <img
+          loading="lazy"
+          src="/assets/services-hero.jpg"
+          alt="Services hero image"
+          class="hidden md:flex"
+        />
       </div>
       <div class="flex basis-1/2 flex-col gap-4">
-        <img loading="lazy" src="/assets/meeting-2.jpg" alt="" class="max-h-[280px]" />
+        <img loading="lazy" src="/assets/meeting-2.jpg" alt="Meeting Image" class="max-h-[280px]" />
         <div class="flex flex-col gap-3 px-4 text-sm text-secondary-light md:px-0">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit quidem explicabo

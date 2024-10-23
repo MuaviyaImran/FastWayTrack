@@ -28,7 +28,7 @@ const route = useRoute()
     </div>
   </div>
   <div class="flex items-center justify-between px-5 py-2 lg:hidden">
-    <img src="/favicon.svg" alt="" class="h-[40px] w-[40px]" loading="lazy" />
+    <img src="/favicon.svg" alt="App Logo" class="h-[40px] w-[40px]" loading="lazy" />
     <div class="flex gap-12 text-xs">
       <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
       <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services">

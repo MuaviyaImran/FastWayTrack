@@ -9,16 +9,28 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
+      meta: {
+        title: 'Home',
+        description: 'Welcome page of Fast Way Track', // <= here
+      },
       component: HomeView,
     },
     {
       path: '/about',
       name: 'about',
+      meta: {
+        title: 'About',
+        description: 'About page of Fast Way Track', // <= here
+      },
       component: AboutView,
     },
     {
       path: '/services',
       name: 'services',
+      meta: {
+        title: 'Services',
+        description: 'Services page of Fast Way Track', // <= here
+      },
       component: ServicesView,
     },
   ],

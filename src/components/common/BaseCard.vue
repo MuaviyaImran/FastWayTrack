@@ -14,7 +14,7 @@ const props = defineProps<{
     <img
       loading="lazy"
       :src="image"
-      alt=""
+      alt="Card Image"
       class="w-full"
       :class="[heighted ? 'max-h-[380px]' : 'max-h-[220px]']"
     />

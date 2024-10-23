@@ -13,7 +13,7 @@ const props = defineProps<{
       :class="[reverse ? 'order-2' : 'order-1']"
       class="flex h-[300px] basis-1/2 flex-col items-center justify-center gap-3 bg-white px-8 py-8 md:h-[500px] md:px-14 md:py-0"
     >
-      <img loading="lazy" :src="plannerImage" height="70" width="70" alt="" />
+      <img loading="lazy" :src="plannerImage" height="70" width="70" alt="Planner" />
       <p class="text-center text-lg font-bold">{{ title }}</p>
       <p class="text-center text-sm text-secondary-light">
         {{ description }}
