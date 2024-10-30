@@ -8,9 +8,9 @@ import BaseCompanyQuality from '@/components/common/BaseCompanyQuality.vue'
         <p class="pt-7 text-xs font-bold uppercase text-primary md:pt-0">Why Business Choose us</p>
         <p class="text-3xl font-extrabold">Jumpstart your business</p>
         <p class="text-xs text-secondary-light">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus blanditiis molestias
-          deleniti voluptatibus neque dolores, in maxime illo, eaque quis eligendi vitae ea sit
-          porro quo nemo! Ipsa, eum fugit!
+          We understand that starting and running a business can be a challenging journey. That's
+          why we're here to help you every step of the way. Our team of experts is dedicated to
+          providing you with the tools, resources, and support you need to succeed.
         </p>
       </div>
       <div
@@ -19,20 +19,17 @@ import BaseCompanyQuality from '@/components/common/BaseCompanyQuality.vue'
         <BaseCompanyQuality
           image="/assets/quality_1.png"
           title="We're Loyal"
-          description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus blanditiis molestias
-          deleniti voluptatibus neque dolores"
+          description="We're committed to building long-term partnerships with our clients. We'll be there for you every step of the way, from initial planning to long-term growth."
         />
         <BaseCompanyQuality
           image="/assets/planner_2.png"
           title="We're Helpful"
-          description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus blanditiis molestias
-          deleniti voluptatibus neque dolores"
+          description="Our team is always available to answer your questions and provide guidance. We'll work closely with you to understand your unique needs and develop a customized solution."
         />
         <BaseCompanyQuality
           image="/assets/planner_1.png"
           title="We're Flexible"
-          description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus blanditiis molestias
-          deleniti voluptatibus neque dolores"
+          description="We understand that your business needs may change over time. That's why we offer flexible solutions that can adapt to your evolving needs."
         />
       </div>
     </div>

@@ -29,7 +29,7 @@ const router = useRouter()
       </div>
       <img
         loading="lazy"
-        src="/assets/meeting-4.jpg"
+        src="/assets/meeting-1.jpg"
         class="h-[300px] w-[650px] md:h-[500px]"
         alt="Picture"
         rel="preload"

@@ -3,7 +3,7 @@
   <section class="relative h-[300px] w-full text-center text-white md:h-[600px]">
     <img
       rel="preload"
-      src="/assets/meeting-1.jpg"
+      src="/assets/meeting-4.jpg "
       alt="Picture"
       class="absolute left-0 top-0 z-20 h-full w-full"
     />
