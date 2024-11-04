@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ServicesView from '@/views/ServicesView.vue'
+import ContactUsView from '@/views/ContactUsView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -32,6 +33,15 @@ const router = createRouter({
         description: 'Services page of Fast Way Track', // <= here
       },
       component: ServicesView,
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      meta: {
+        title: 'Contact',
+        description: 'Contact us page of Fast Way Track', // <= here
+      },
+      component: ContactUsView,
     },
   ],
 })

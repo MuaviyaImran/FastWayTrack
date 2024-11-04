@@ -29,25 +29,31 @@ const route = useRoute()
   </div>
   <div class="flex items-center justify-between px-5 py-2 lg:hidden">
     <img src="/favicon.svg" alt="App Logo" class="h-[40px] w-[40px]" loading="lazy" />
-    <div class="flex gap-12 text-xs">
+    <div class="flex gap-4 text-xs md:gap-8 lg:gap-12">
       <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
       <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services">
         Services</router-link
       >
       <router-link :class="{ 'font-semibold': route.name == 'about' }" to="/about">
         About</router-link
+      >
+      <router-link :class="{ 'font-semibold': route.name == 'contact' }" to="/contact">
+        Contact us</router-link
       >
     </div>
   </div>
   <div class="mx-auto hidden max-w-7xl items-center justify-between p-2 lg:flex">
     <router-link to="/"><IconLogo :height="'70'" width="'150'" /></router-link>
-    <div class="flex gap-12">
+    <div class="flex gap-4 md:gap-8 lg:gap-12">
       <router-link :class="{ 'font-bold': route.name == 'home' }" to="/">Home</router-link>
       <router-link :class="{ 'font-semibold': route.name == 'services' }" to="/services">
         Services</router-link
       >
       <router-link :class="{ 'font-semibold': route.name == 'about' }" to="/about">
         About</router-link
+      >
+      <router-link :class="{ 'font-semibold': route.name == 'contact' }" to="/contact">
+        Contact us</router-link
       >
     </div>
   </div>
