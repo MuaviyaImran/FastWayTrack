@@ -3,8 +3,8 @@
     <div class="mx-auto max-w-screen-md px-4 py-8 lg:py-16">
       <h2 class="mb-4 text-center text-4xl font-extrabold tracking-tight">Contact Us</h2>
       <p class="mb-8 text-center font-light text-gray-500 sm:text-xl lg:mb-16">
-        Got a technical issue? Want to send feedback about a beta feature? Need details about our
-        Business plan? Let us know.
+        Ready to take your business to the next level? Contact us today to learn more about how we
+        can help.
       </p>
       <form action="#" class="space-y-8">
         <div>
