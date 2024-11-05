@@ -43,13 +43,13 @@ async function sendData() {
 
 <template>
   <section class="">
-    <div class="mx-auto max-w-screen-md px-4 py-8 lg:py-16">
+    <div class="mx-auto max-w-screen-md px-4 py-8 lg:py-14">
       <h2 class="mb-4 text-center text-4xl font-extrabold tracking-tight">Contact Us</h2>
-      <p class="mb-8 text-center font-light text-gray-500 sm:text-xl lg:mb-16">
+      <p class="mb-5 text-center font-light text-gray-500 sm:text-xl">
         Ready to take your business to the next level? Contact us today to learn more about how we
         can help.
       </p>
-      <div>
+      <div class="my-2">
         <label for="email" class="mb-2 mt-1 block text-sm font-medium">Your name</label>
         <input
           type="name"
@@ -60,7 +60,7 @@ async function sendData() {
           required
         />
       </div>
-      <div>
+      <div class="my-2">
         <label for="email" class="mb-2 mt-1 block text-sm font-medium">Your email</label>
         <input
           type="email"
@@ -71,7 +71,7 @@ async function sendData() {
           required
         />
       </div>
-      <div>
+      <div class="my-2">
         <label for="subject" class="mb-2 mt-1 block text-sm font-medium">Subject</label>
         <input
           type="text"
@@ -82,7 +82,7 @@ async function sendData() {
           required
         />
       </div>
-      <div class="sm:col-span-2">
+      <div class="my-2 sm:col-span-2">
         <label for="message" class="mb-2 mt-1 block text-sm font-medium">Your message</label>
         <textarea
           id="message"
